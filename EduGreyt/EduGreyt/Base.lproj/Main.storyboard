@@ -17,22 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTN-AB-ACx">
-                                <rect key="frame" x="75" y="306" width="265" height="123"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="kx7-jn-wKn">
+                                <rect key="frame" x="17" y="31" width="380" height="314"/>
+                                <animations/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-Mb-U0Z">
+                                <rect key="frame" x="57" y="306" width="265" height="123"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">An app to teach us silly hoomans about the wonders of Greyhounds. Many thanks to the members of the GreySave community who helped me with the facts and my ever constant companion, Tock.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tock slippers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iKH-Qg-uAV">
-                                <rect key="frame" x="77" y="451" width="260" height="178"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="kx7-jn-wKn">
-                                <rect key="frame" x="17" y="35" width="380" height="314"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -109,6 +105,5 @@
     </scenes>
     <resources>
         <image name="hipsterlogogenerator_1447297630288.png" width="600" height="500"/>
-        <image name="tock slippers.jpg" width="960" height="720"/>
     </resources>
 </document>

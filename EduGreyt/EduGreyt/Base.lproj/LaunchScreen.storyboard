@@ -17,8 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tock slippers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yOq-RA-NgB">
+                                <rect key="frame" x="61" y="379" width="260" height="178"/>
+                                <animations/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4E-UO-kAC">
-                                <rect key="frame" x="-24" y="138" width="422" height="391"/>
+                                <rect key="frame" x="-24" y="0.0" width="422" height="391"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -34,5 +38,6 @@
     </scenes>
     <resources>
         <image name="hipsterlogogenerator_1447297630288.png" width="600" height="500"/>
+        <image name="tock slippers.jpg" width="960" height="720"/>
     </resources>
 </document>
