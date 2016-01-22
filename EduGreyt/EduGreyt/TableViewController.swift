@@ -13,15 +13,17 @@ class TableViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
   
-    var topics: [String] = ["Apperance", "Temperament", "As Pets", "Health", "Interesting Facts", "Important Notes"]
+    // Array for the topics covered
+    var topics: [String] = ["Apperance", "As Pets", "Health", "Interesting Facts", "Important Notes", "Temperament"]
   
-    
+    //How many rows in section based on topics
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return topics.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        //Created the cell
+        
+        //Create a cell object
         let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "")
         cell.textLabel?.text = topics[indexPath.row]
         
