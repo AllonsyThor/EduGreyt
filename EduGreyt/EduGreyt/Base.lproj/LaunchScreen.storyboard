@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,13 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4E-UO-kAC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4E-UO-kAC">
                                 <rect key="frame" x="-24" y="138" width="422" height="391"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="391" id="I4C-Eg-95c"/>
+                                    <constraint firstAttribute="width" constant="422" id="Ovj-i9-ou8"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X4E-UO-kAC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-44" id="LSq-F9-FEh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X4E-UO-kAC" secondAttribute="trailing" constant="-43" id="yYB-m5-dPe"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
