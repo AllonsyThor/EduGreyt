@@ -11,8 +11,9 @@ import UIKit
 class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
   
-    var topics: [String] = ["Apperance", "Temperament", "As Pets", "Health", "Interesting Facts" ]
+    var topics: [String] = ["Apperance", "Temperament", "As Pets", "Health", "Interesting Facts", "Important Notes"]
   
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1

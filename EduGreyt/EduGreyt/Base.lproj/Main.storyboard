@@ -17,14 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTN-AB-ACx">
-                                <rect key="frame" x="75" y="306" width="265" height="123"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">An app to teach us silly hoomans about the wonders of Greyhounds. Many thanks to the members of the GreySave community who helped me with the facts and my ever constant companion, Tock.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tock slippers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iKH-Qg-uAV">
                                 <rect key="frame" x="77" y="451" width="260" height="178"/>
                                 <animations/>
@@ -33,11 +25,25 @@
                                 <rect key="frame" x="17" y="35" width="380" height="314"/>
                                 <animations/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTN-AB-ACx">
+                                <rect key="frame" x="77" y="292" width="265" height="123"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">An app to teach us silly hoomans about the wonders of Greyhounds. Many thanks to the members of the GreySave community who helped me with the facts and my ever constant companion, Tock.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iKZ-vT-zET"/>
+                    <navigationItem key="navigationItem" id="iKZ-vT-zET">
+                        <barButtonItem key="rightBarButtonItem" title="Learn!" id="0FE-mS-Y12">
+                            <connections>
+                                <segue destination="lbJ-sS-4cC" kind="show" id="ix3-zw-Um8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qym-aB-24C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -62,7 +68,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="topicCell" id="2AJ-VJ-4Sp">
-                                        <rect key="frame" x="0.0" y="28" width="409" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="409" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2AJ-VJ-4Sp" id="crx-2g-Ch6">
                                             <rect key="frame" x="0.0" y="0.0" width="409" height="43.5"/>
