@@ -23,7 +23,10 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = table
+        //Created the cell
+        let cell = tableView.dequeueReusableCellWithIdentifier("topicCell")!
+        
+        return cell
         
     }
     
