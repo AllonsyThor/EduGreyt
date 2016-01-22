@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,27 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tock slippers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yOq-RA-NgB">
-                                <rect key="frame" x="61" y="379" width="260" height="178"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4E-UO-kAC">
-                                <rect key="frame" x="-24" y="0.0" width="422" height="391"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="X4E-UO-kAC">
+                                <rect key="frame" x="6" y="181" width="363" height="306"/>
                                 <animations/>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X4E-UO-kAC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-14" id="Cmk-wS-yBY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="X4E-UO-kAC" secondAttribute="bottom" constant="180" id="JGe-N1-f9Q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="X4E-UO-kAC" secondAttribute="trailing" constant="-14" id="QcL-3j-2Ms"/>
+                            <constraint firstItem="X4E-UO-kAC" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="161" id="e4i-tG-EpF"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="315.5" y="388.5"/>
+            <point key="canvasLocation" x="521.5" y="391.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="hipsterlogogenerator_1447297630288.png" width="600" height="500"/>
-        <image name="tock slippers.jpg" width="960" height="720"/>
     </resources>
 </document>

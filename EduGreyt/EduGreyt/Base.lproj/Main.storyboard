@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,14 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="kx7-jn-wKn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hipsterlogogenerator_1447297630288.png" translatesAutoresizingMaskIntoConstraints="NO" id="kx7-jn-wKn">
                                 <rect key="frame" x="17" y="31" width="380" height="314"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="314" id="R5a-e1-IXO"/>
+                                    <constraint firstAttribute="width" constant="380" id="Xbt-T0-Hdr"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-Mb-U0Z">
-                                <rect key="frame" x="57" y="306" width="265" height="123"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tock slippers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="177-Fn-GAX">
+                                <rect key="frame" x="45" y="486" width="325" height="209"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="7SP-Cm-Qyb"/>
+                                    <constraint firstAttribute="width" constant="325" id="ETr-j5-OAN"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-Mb-U0Z">
+                                <rect key="frame" x="75" y="306" width="265" height="123"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="flW-kj-Xh3"/>
+                                    <constraint firstAttribute="width" constant="265" id="tGT-pi-C9q"/>
+                                </constraints>
                                 <string key="text">An app to teach us silly hoomans about the wonders of Greyhounds. Many thanks to the members of the GreySave community who helped me with the facts and my ever constant companion, Tock.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -32,8 +49,23 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="0xV-Mb-U0Z" secondAttribute="trailing" constant="54" id="Bkh-lf-lAU"/>
+                            <constraint firstItem="kx7-jn-wKn" firstAttribute="leading" secondItem="mZW-c1-dpu" secondAttribute="leadingMargin" constant="-3" id="F4f-78-BBk"/>
+                            <constraint firstItem="177-Fn-GAX" firstAttribute="leading" secondItem="mZW-c1-dpu" secondAttribute="leadingMargin" constant="25" id="F9d-QP-N4O"/>
+                            <constraint firstItem="kx7-jn-wKn" firstAttribute="top" secondItem="mZW-c1-dpu" secondAttribute="topMargin" constant="31" id="Kz4-F5-ypa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kx7-jn-wKn" secondAttribute="trailing" constant="-3" id="k55-e1-NGZ"/>
+                            <constraint firstItem="0xV-Mb-U0Z" firstAttribute="leading" secondItem="mZW-c1-dpu" secondAttribute="leadingMargin" constant="55" id="nBo-gP-8b8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="177-Fn-GAX" secondAttribute="trailing" constant="24" id="uKJ-AZ-xpg"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="iKZ-vT-zET"/>
+                    <navigationItem key="navigationItem" id="iKZ-vT-zET">
+                        <barButtonItem key="rightBarButtonItem" title="Learn!" id="vQJ-Sb-yzE">
+                            <connections>
+                                <segue destination="lbJ-sS-4cC" kind="push" id="shU-CP-Qv5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qym-aB-24C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -58,7 +90,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="topicCell" id="2AJ-VJ-4Sp">
-                                        <rect key="frame" x="0.0" y="28" width="409" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="409" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2AJ-VJ-4Sp" id="crx-2g-Ch6">
                                             <rect key="frame" x="0.0" y="0.0" width="409" height="43.5"/>
@@ -73,6 +105,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1UW-H4-rmJ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="tableView" destination="dzq-fb-lL7" id="cNA-PE-dgZ"/>
@@ -99,11 +132,13 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rFj-EF-3ZK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem id="Dp0-uB-tBR"/>
             </objects>
             <point key="canvasLocation" x="329.5" y="238.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="hipsterlogogenerator_1447297630288.png" width="600" height="500"/>
+        <image name="tock slippers.jpg" width="960" height="720"/>
     </resources>
 </document>
