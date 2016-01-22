@@ -8,16 +8,13 @@
 
 import UIKit
 
-class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class TableViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
   
     var topics: [String] = ["Apperance", "Temperament", "As Pets", "Health", "Interesting Facts", "Important Notes"]
   
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
-    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return topics.count
@@ -25,7 +22,8 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //Created the cell
-        let cell = tableView.dequeueReusableCellWithIdentifier("topicCell")!
+        let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "")
+        cell.textLabel?.text = topics[indexPath.row]
         
         return cell
         

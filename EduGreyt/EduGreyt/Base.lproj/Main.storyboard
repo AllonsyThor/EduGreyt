@@ -90,6 +90,9 @@
                                         <animations/>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="lbJ-sS-4cC" id="obI-f9-OS9"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <animations/>
