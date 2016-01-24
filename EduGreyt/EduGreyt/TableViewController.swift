@@ -14,7 +14,7 @@ class TableViewController: UIViewController, UITableViewDataSource {
     
   
     // Array for the topics covered
-    var topics: [String] = ["Apperance", "As Pets", "Health", "Interesting Facts", "Important Notes", "Temperament"]
+    var topics: [String] = ["Apperance", "As Pets", "Events", "Favorite Links", "Health", "Interesting Facts", "Important Notes", "Temperament"]
   
     //How many rows in section based on topics
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
