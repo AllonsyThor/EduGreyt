@@ -92,6 +92,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="lbJ-sS-4cC" id="obI-f9-OS9"/>
+                                    <outlet property="delegate" destination="lbJ-sS-4cC" id="myf-gn-6Bk"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -103,6 +104,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="tableView" destination="dzq-fb-lL7" id="cNA-PE-dgZ"/>
+                        <segue destination="GOk-T7-RoV" kind="show" identifier="FavoriteSegue" id="h5I-W1-2Zm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mr2-vc-jMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -207,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZG-2p-Yv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1661.5" y="247.5"/>
+            <point key="canvasLocation" x="1741.5" y="231.5"/>
         </scene>
         <!--Health -->
         <scene sceneID="8aK-qb-Mck">

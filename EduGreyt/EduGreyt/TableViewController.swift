@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UIViewController, UITableViewDataSource {
+class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -24,11 +24,25 @@ class TableViewController: UIViewController, UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         //Create a cell object
-        let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "")
+        let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "topicCell")
         cell.textLabel?.text = topics[indexPath.row]
         
         return cell
         
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var segueIdentifier = ""
+        
+        switch indexPath.row{
+            case 3:
+                segueIdentifier = "FavoriteSegue"
+            default:
+                ()
+        }
+        
+        performSegueWithIdentifier(segueIdentifier, sender: self)
     }
     
     
