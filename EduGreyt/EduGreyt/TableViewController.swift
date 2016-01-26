@@ -36,8 +36,22 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         var segueIdentifier = ""
         
         switch indexPath.row{
+            case 0:
+                segueIdentifier = "ApperanceSegue"
+            case 1:
+                segueIdentifier = "PetsSegue"
+            case 2:
+                segueIdentifier = "EventsSegue"
             case 3:
                 segueIdentifier = "FavoriteSegue"
+            case 4:
+                segueIdentifier = "HealthSegue"
+            case 5:
+                segueIdentifier = "FactsSegue"
+            case 6:
+                segueIdentifier = "NotesSegue"
+            case 7:
+                segueIdentifier = "TemperamentSegue"
             default:
                 ()
         }
