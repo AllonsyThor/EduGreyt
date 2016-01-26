@@ -31,10 +31,13 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
         
     }
     
+    // To switch view controllers based on row index path
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        //empty string
         var segueIdentifier = ""
         
+        //based on the row index path, head to x controller based on segueIdentifier
         switch indexPath.row{
             case 0:
                 segueIdentifier = "ApperanceSegue"
