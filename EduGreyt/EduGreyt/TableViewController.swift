@@ -14,7 +14,7 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
     
   
     // Array for the topics covered
-    var topics: [String] = ["Apperance", "As Pets", "Events", "Favorite Links", "Health", "Interesting Facts", "Important Notes", "Temperament"]
+    var topics: [String] = ["Apperance", "As Pets", "Events", "Favorite Links", "Health", "Interesting Facts", "Important Notes"]
   
     //How many rows in section based on topics
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -53,8 +53,6 @@ class TableViewController: UIViewController, UITableViewDataSource, UITableViewD
                 segueIdentifier = "FactsSegue"
             case 6:
                 segueIdentifier = "NotesSegue"
-            case 7:
-                segueIdentifier = "TemperamentSegue"
             default:
                 ()
         }

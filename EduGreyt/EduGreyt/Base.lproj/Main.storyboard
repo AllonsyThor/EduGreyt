@@ -111,7 +111,6 @@
                         <segue destination="2va-aJ-al1" kind="show" identifier="HealthSegue" id="Sfg-ML-QaB"/>
                         <segue destination="YPQ-4m-bgp" kind="show" identifier="FactsSegue" id="MH4-P4-Lgb"/>
                         <segue destination="Rrh-tX-jQN" kind="show" identifier="NotesSegue" id="h4a-oR-wXv"/>
-                        <segue destination="KOn-gO-D1j" kind="show" identifier="TemperamentSegue" id="S1f-1Q-2F7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mr2-vc-jMx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -155,26 +154,6 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLC-pT-wll" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2127.5" y="1063.5"/>
-        </scene>
-        <!--Temperament-->
-        <scene sceneID="RWp-ql-eKL">
-            <objects>
-                <viewController title="Temperament" id="KOn-gO-D1j" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ShP-fJ-0yM"/>
-                        <viewControllerLayoutGuide type="bottom" id="PYq-Ke-dCJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kwk-5l-EHs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1VJ-DI-407" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1685.5" y="1063.5"/>
         </scene>
