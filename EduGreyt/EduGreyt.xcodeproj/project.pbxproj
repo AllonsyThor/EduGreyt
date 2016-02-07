@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BADD8CC824D9F7B08C9BBFF0 /* Pods_EduGreyt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC308E4C8EE3C58F224FB1F5 /* Pods_EduGreyt.framework */; };
+		CB3BD6191C66EB30007F938B /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3BD6181C66EB30007F938B /* UIViewExtensions.swift */; };
 		CB4F09A51C51C388003D3F74 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4F09A41C51C388003D3F74 /* EventKit.framework */; };
 		CB4F09A71C51C3A0003D3F74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4F09A61C51C3A0003D3F74 /* MapKit.framework */; };
 		CB4F09A91C580333003D3F74 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09A81C580333003D3F74 /* EventsViewController.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		21621122E2DED8ACAA576A99 /* Pods-EduGreyt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduGreyt.release.xcconfig"; path = "Pods/Target Support Files/Pods-EduGreyt/Pods-EduGreyt.release.xcconfig"; sourceTree = "<group>"; };
 		411729B7E799F53D8C65CC00 /* Pods-EduGreyt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduGreyt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EduGreyt/Pods-EduGreyt.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3BD6181C66EB30007F938B /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		CB4F09A41C51C388003D3F74 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		CB4F09A61C51C3A0003D3F74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CB4F09A81C580333003D3F74 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				CB4F09AA1C5803D6003D3F74 /* ApperanceViewController.swift */,
 				CB4F09A81C580333003D3F74 /* EventsViewController.swift */,
 				CBA9EF8C1C067B1600B4C0A5 /* TableViewController.swift */,
+				CB3BD6181C66EB30007F938B /* UIViewExtensions.swift */,
 				CB6E57231BF4301200E9B680 /* Assets.xcassets */,
 				CB6E57321BF43AEB00E9B680 /* tock slippers.jpg */,
 				CB6E57301BF43A1100E9B680 /* hipsterlogogenerator_1447297630288.png */,
@@ -254,6 +257,7 @@
 				CB6E571F1BF4301200E9B680 /* ViewController.swift in Sources */,
 				CB4F09A91C580333003D3F74 /* EventsViewController.swift in Sources */,
 				CBA9EF8D1C067B1600B4C0A5 /* TableViewController.swift in Sources */,
+				CB3BD6191C66EB30007F938B /* UIViewExtensions.swift in Sources */,
 				CB4F09AD1C5803E7003D3F74 /* PetsViewController.swift in Sources */,
 				CB6E571D1BF4301200E9B680 /* AppDelegate.swift in Sources */,
 				CB4F09B31C58042C003D3F74 /* FactsViewController.swift in Sources */,
