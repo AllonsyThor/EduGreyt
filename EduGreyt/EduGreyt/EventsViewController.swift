@@ -11,6 +11,11 @@ import EventKit
 import MapKit
 
 class EventsViewController: UIViewController {
+    
+    //Creating EventStore
+    let eventStore = EKEventStore()
+    
+   
 
     override func viewDidLoad() {
         super.viewDidLoad()
