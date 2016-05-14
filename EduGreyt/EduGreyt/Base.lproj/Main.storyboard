@@ -316,8 +316,21 @@
                     <view key="view" contentMode="scaleToFill" id="vcH-IG-4OY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X57-zP-d9y">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fqx-Sn-wHg" firstAttribute="top" secondItem="X57-zP-d9y" secondAttribute="bottom" id="A8f-Wa-Z93"/>
+                            <constraint firstAttribute="trailing" secondItem="X57-zP-d9y" secondAttribute="trailing" id="sXl-hs-eok"/>
+                            <constraint firstItem="X57-zP-d9y" firstAttribute="leading" secondItem="vcH-IG-4OY" secondAttribute="leading" id="ugd-ly-Xcn"/>
+                            <constraint firstItem="X57-zP-d9y" firstAttribute="top" secondItem="vf8-rq-DKw" secondAttribute="bottom" id="xjm-vu-g2J"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
