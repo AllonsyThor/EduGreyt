@@ -25,5 +25,12 @@ class asPetsCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    var showDetails = false {
+        didSet {
+            secondHeightConstraint.priority = showDetails ? 250 : 999
+        }
+    
+    }
 
 }

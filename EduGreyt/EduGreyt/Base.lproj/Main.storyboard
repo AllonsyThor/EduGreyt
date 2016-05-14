@@ -308,7 +308,7 @@
         <!--As Pets-->
         <scene sceneID="NnL-HR-hYB">
             <objects>
-                <viewController title="As Pets" id="riu-hC-dvh" sceneMemberID="viewController">
+                <viewController title="As Pets" id="riu-hC-dvh" customClass="PetsViewController" customModule="EduGreyt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vf8-rq-DKw"/>
                         <viewControllerLayoutGuide type="bottom" id="fqx-Sn-wHg"/>
@@ -350,7 +350,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJd-eA-OXC" userLabel="SecondView">
-                                                    <rect key="frame" x="0.0" y="40" width="375" height="60"/>
+                                                    <rect key="frame" x="0.0" y="40" width="375" height="0.0"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRC-og-NDU">
                                                             <rect key="frame" x="166" y="20" width="42" height="20.5"/>
@@ -363,9 +363,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.68643184940000002" blue="0.95528763999999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="60" id="kwE-eM-WAX"/>
-                                                        <constraint firstItem="mRC-og-NDU" firstAttribute="centerX" secondItem="vJd-eA-OXC" secondAttribute="centerX" id="rfd-ik-4O1"/>
-                                                        <constraint firstItem="mRC-og-NDU" firstAttribute="top" secondItem="vJd-eA-OXC" secondAttribute="top" constant="20" id="w9k-lD-4tE"/>
+                                                        <constraint firstAttribute="height" priority="999" id="kwE-eM-WAX"/>
+                                                        <constraint firstItem="mRC-og-NDU" firstAttribute="centerX" secondItem="vJd-eA-OXC" secondAttribute="centerX" priority="998" id="rfd-ik-4O1"/>
+                                                        <constraint firstItem="mRC-og-NDU" firstAttribute="top" secondItem="vJd-eA-OXC" secondAttribute="top" priority="998" constant="20" id="w9k-lD-4tE"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -405,6 +405,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="petsTableView" destination="X57-zP-d9y" id="H8u-Vi-ZBX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaG-OC-8D8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
