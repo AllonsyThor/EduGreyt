@@ -12,18 +12,50 @@ class PetsViewController: UIViewController {
     @IBOutlet weak var petsTableView: UITableView!
     
     var selectedIndex = -1
-    var dataArray : [[String:String]] = [["Question" : "Are greyhounds good apartment dogs?", "Answer" : "Yes. Greyhounds, while larger dogs are great in apartments."], ["Question" : "Do they require a lot of exercise?", "Answer" : "Surprisingly, no. Most greyhounds will go on 3-4 20min walks per day and be just fine. They do enjoy long walks."], ["Question" : "Do greyhounds like children?", "Answer" : "As with all dogs, some enjoty children and others do not. Teaching a child the best way to interact with your hound will help. If you are expecting or plannign on expecting give your grey an adjustment period."]]
+    var dataArray : [[String:String]] = [["Question" : "Are greyhounds good apartment dogs?", "Answer" : "Yes, they are great in apartments."], ["Question" : "Do they require a lot of exercise?", "Answer" : "Surprisingly, no. 3-4 20min walks per day."], ["Question" : "Do greyhounds like children?", "Answer" : "Some enjoy children and others do not."]]
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataArray.count;
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cellIdentifier = "Cell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as! asPetsCell
+        
+        let obj = dataArray[indexPath.row]
+        cell.firstViewLabel.text = obj["Question"]
+        cell.secondViewLabel.text = obj["Answer"]
+        
+        return cell;
     }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        if(selectedIndex == indexPath.row) {
+            return 100;
+        } else {
+            return 40;
+        }
+    }
+        
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if(selectedIndex == indexPath.row) {
+            selectedIndex = -1
+        } else {
+            selectedIndex = indexPath.row
+        }
+       self.petsTableView.reloadData()
+        self.petsTableView.beginUpdates()
+        self.petsTableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic )
+        self.petsTableView.endUpdates()
+    }
+    
+   
+        
+       
+       
+    }
+    
+    
+    
 
-
-}
