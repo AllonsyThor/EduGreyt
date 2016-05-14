@@ -18,6 +18,7 @@
 		CB4F09B11C58040D003D3F74 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09B01C58040D003D3F74 /* HealthViewController.swift */; };
 		CB4F09B31C58042C003D3F74 /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09B21C58042C003D3F74 /* FactsViewController.swift */; };
 		CB606C921CE66078009B4FA8 /* ApperanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */; };
+		CB67F3EC1CE6DCDB003D2B13 /* asPetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */; };
 		CB6E571D1BF4301200E9B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E571C1BF4301200E9B680 /* AppDelegate.swift */; };
 		CB6E571F1BF4301200E9B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E571E1BF4301200E9B680 /* ViewController.swift */; };
 		CB6E57221BF4301200E9B680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E57201BF4301200E9B680 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		CB4F09B01C58040D003D3F74 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
 		CB4F09B21C58042C003D3F74 /* FactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
 		CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceTableViewCell.swift; sourceTree = "<group>"; };
+		CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asPetsCell.swift; sourceTree = "<group>"; };
 		CB6E57191BF4301200E9B680 /* EduGreyt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduGreyt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6E571C1BF4301200E9B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6E571E1BF4301200E9B680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				CB6E57201BF4301200E9B680 /* Main.storyboard */,
 				CB6E571C1BF4301200E9B680 /* AppDelegate.swift */,
 				CB4F09AA1C5803D6003D3F74 /* ApperanceTableViewController.swift */,
+				CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */,
 				CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */,
 				CB4F09A81C580333003D3F74 /* EventsViewController.swift */,
 				CB4F09B21C58042C003D3F74 /* FactsViewController.swift */,
@@ -261,6 +264,7 @@
 				CB6E571F1BF4301200E9B680 /* ViewController.swift in Sources */,
 				CB4F09A91C580333003D3F74 /* EventsViewController.swift in Sources */,
 				CBA9EF8D1C067B1600B4C0A5 /* TableViewController.swift in Sources */,
+				CB67F3EC1CE6DCDB003D2B13 /* asPetsCell.swift in Sources */,
 				CB3BD6191C66EB30007F938B /* UIViewExtensions.swift in Sources */,
 				CB4F09AD1C5803E7003D3F74 /* PetsViewController.swift in Sources */,
 				CB6E571D1BF4301200E9B680 /* AppDelegate.swift in Sources */,
