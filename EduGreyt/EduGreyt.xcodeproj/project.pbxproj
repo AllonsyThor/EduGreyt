@@ -17,7 +17,6 @@
 		CB4F09AF1C5803F9003D3F74 /* FavoriteLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09AE1C5803F9003D3F74 /* FavoriteLinksViewController.swift */; };
 		CB4F09B11C58040D003D3F74 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09B01C58040D003D3F74 /* HealthViewController.swift */; };
 		CB4F09B31C58042C003D3F74 /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09B21C58042C003D3F74 /* FactsViewController.swift */; };
-		CB606C921CE66078009B4FA8 /* ApperanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */; };
 		CB67F3EC1CE6DCDB003D2B13 /* asPetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */; };
 		CB6E571D1BF4301200E9B680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E571C1BF4301200E9B680 /* AppDelegate.swift */; };
 		CB6E571F1BF4301200E9B680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E571E1BF4301200E9B680 /* ViewController.swift */; };
@@ -27,6 +26,12 @@
 		CB6E57311BF43A1100E9B680 /* hipsterlogogenerator_1447297630288.png in Resources */ = {isa = PBXBuildFile; fileRef = CB6E57301BF43A1100E9B680 /* hipsterlogogenerator_1447297630288.png */; };
 		CB6E57331BF43AEB00E9B680 /* tock slippers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB6E57321BF43AEB00E9B680 /* tock slippers.jpg */; };
 		CBA9EF8D1C067B1600B4C0A5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9EF8C1C067B1600B4C0A5 /* TableViewController.swift */; };
+		CBD6D38E1CE97C20003A9B5A /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D38D1CE97C20003A9B5A /* NotesViewController.swift */; };
+		CBD6D3901CE97C70003A9B5A /* apperanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D38F1CE97C70003A9B5A /* apperanceCell.swift */; };
+		CBD6D3921CE97C83003A9B5A /* factsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D3911CE97C83003A9B5A /* factsCell.swift */; };
+		CBD6D3941CE97CDE003A9B5A /* favoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D3931CE97CDE003A9B5A /* favoriteCell.swift */; };
+		CBD6D3961CE97CF2003A9B5A /* healthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D3951CE97CF2003A9B5A /* healthCell.swift */; };
+		CBD6D3981CE97D0E003A9B5A /* notesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6D3971CE97D0E003A9B5A /* notesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +46,6 @@
 		CB4F09AE1C5803F9003D3F74 /* FavoriteLinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteLinksViewController.swift; sourceTree = "<group>"; };
 		CB4F09B01C58040D003D3F74 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
 		CB4F09B21C58042C003D3F74 /* FactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
-		CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceTableViewCell.swift; sourceTree = "<group>"; };
 		CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asPetsCell.swift; sourceTree = "<group>"; };
 		CB6E57191BF4301200E9B680 /* EduGreyt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduGreyt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6E571C1BF4301200E9B680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		CB6E57301BF43A1100E9B680 /* hipsterlogogenerator_1447297630288.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hipsterlogogenerator_1447297630288.png; sourceTree = "<group>"; };
 		CB6E57321BF43AEB00E9B680 /* tock slippers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tock slippers.jpg"; sourceTree = "<group>"; };
 		CBA9EF8C1C067B1600B4C0A5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CBD6D38D1CE97C20003A9B5A /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		CBD6D38F1CE97C70003A9B5A /* apperanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apperanceCell.swift; sourceTree = "<group>"; };
+		CBD6D3911CE97C83003A9B5A /* factsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = factsCell.swift; sourceTree = "<group>"; };
+		CBD6D3931CE97CDE003A9B5A /* favoriteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCell.swift; sourceTree = "<group>"; };
+		CBD6D3951CE97CF2003A9B5A /* healthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = healthCell.swift; sourceTree = "<group>"; };
+		CBD6D3971CE97D0E003A9B5A /* notesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notesCell.swift; sourceTree = "<group>"; };
 		EC308E4C8EE3C58F224FB1F5 /* Pods_EduGreyt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduGreyt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,13 +123,18 @@
 				CB6E57201BF4301200E9B680 /* Main.storyboard */,
 				CB6E571C1BF4301200E9B680 /* AppDelegate.swift */,
 				CB4F09AA1C5803D6003D3F74 /* ApperanceViewController.swift */,
+				CBD6D38F1CE97C70003A9B5A /* apperanceCell.swift */,
+				CB4F09AC1C5803E7003D3F74 /* PetsViewController.swift */,
 				CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */,
-				CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */,
 				CB4F09A81C580333003D3F74 /* EventsViewController.swift */,
 				CB4F09B21C58042C003D3F74 /* FactsViewController.swift */,
+				CBD6D3911CE97C83003A9B5A /* factsCell.swift */,
 				CB4F09AE1C5803F9003D3F74 /* FavoriteLinksViewController.swift */,
+				CBD6D3931CE97CDE003A9B5A /* favoriteCell.swift */,
 				CB4F09B01C58040D003D3F74 /* HealthViewController.swift */,
-				CB4F09AC1C5803E7003D3F74 /* PetsViewController.swift */,
+				CBD6D3951CE97CF2003A9B5A /* healthCell.swift */,
+				CBD6D38D1CE97C20003A9B5A /* NotesViewController.swift */,
+				CBD6D3971CE97D0E003A9B5A /* notesCell.swift */,
 				CBA9EF8C1C067B1600B4C0A5 /* TableViewController.swift */,
 				CB3BD6181C66EB30007F938B /* UIViewExtensions.swift */,
 				CB6E571E1BF4301200E9B680 /* ViewController.swift */,
@@ -258,15 +273,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB4F09AB1C5803D6003D3F74 /* ApperanceViewController.swift in Sources */,
-				CB606C921CE66078009B4FA8 /* ApperanceTableViewCell.swift in Sources */,
+				CBD6D3961CE97CF2003A9B5A /* healthCell.swift in Sources */,
 				CB4F09AF1C5803F9003D3F74 /* FavoriteLinksViewController.swift in Sources */,
 				CB4F09B11C58040D003D3F74 /* HealthViewController.swift in Sources */,
 				CB6E571F1BF4301200E9B680 /* ViewController.swift in Sources */,
 				CB4F09A91C580333003D3F74 /* EventsViewController.swift in Sources */,
+				CBD6D3921CE97C83003A9B5A /* factsCell.swift in Sources */,
 				CBA9EF8D1C067B1600B4C0A5 /* TableViewController.swift in Sources */,
 				CB67F3EC1CE6DCDB003D2B13 /* asPetsCell.swift in Sources */,
+				CBD6D3901CE97C70003A9B5A /* apperanceCell.swift in Sources */,
 				CB3BD6191C66EB30007F938B /* UIViewExtensions.swift in Sources */,
+				CBD6D3981CE97D0E003A9B5A /* notesCell.swift in Sources */,
+				CBD6D38E1CE97C20003A9B5A /* NotesViewController.swift in Sources */,
 				CB4F09AD1C5803E7003D3F74 /* PetsViewController.swift in Sources */,
+				CBD6D3941CE97CDE003A9B5A /* favoriteCell.swift in Sources */,
 				CB6E571D1BF4301200E9B680 /* AppDelegate.swift in Sources */,
 				CB4F09B31C58042C003D3F74 /* FactsViewController.swift in Sources */,
 			);
