@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ApperanceTableViewController: UIViewController {
+class ApperanceViewController: UIViewController {
 
 
 

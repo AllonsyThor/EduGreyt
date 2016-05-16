@@ -12,7 +12,7 @@
 		CB4F09A51C51C388003D3F74 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4F09A41C51C388003D3F74 /* EventKit.framework */; };
 		CB4F09A71C51C3A0003D3F74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4F09A61C51C3A0003D3F74 /* MapKit.framework */; };
 		CB4F09A91C580333003D3F74 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09A81C580333003D3F74 /* EventsViewController.swift */; };
-		CB4F09AB1C5803D6003D3F74 /* ApperanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09AA1C5803D6003D3F74 /* ApperanceTableViewController.swift */; };
+		CB4F09AB1C5803D6003D3F74 /* ApperanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09AA1C5803D6003D3F74 /* ApperanceViewController.swift */; };
 		CB4F09AD1C5803E7003D3F74 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09AC1C5803E7003D3F74 /* PetsViewController.swift */; };
 		CB4F09AF1C5803F9003D3F74 /* FavoriteLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09AE1C5803F9003D3F74 /* FavoriteLinksViewController.swift */; };
 		CB4F09B11C58040D003D3F74 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F09B01C58040D003D3F74 /* HealthViewController.swift */; };
@@ -36,7 +36,7 @@
 		CB4F09A41C51C388003D3F74 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		CB4F09A61C51C3A0003D3F74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CB4F09A81C580333003D3F74 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
-		CB4F09AA1C5803D6003D3F74 /* ApperanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceTableViewController.swift; sourceTree = "<group>"; };
+		CB4F09AA1C5803D6003D3F74 /* ApperanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceViewController.swift; sourceTree = "<group>"; };
 		CB4F09AC1C5803E7003D3F74 /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		CB4F09AE1C5803F9003D3F74 /* FavoriteLinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteLinksViewController.swift; sourceTree = "<group>"; };
 		CB4F09B01C58040D003D3F74 /* HealthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			children = (
 				CB6E57201BF4301200E9B680 /* Main.storyboard */,
 				CB6E571C1BF4301200E9B680 /* AppDelegate.swift */,
-				CB4F09AA1C5803D6003D3F74 /* ApperanceTableViewController.swift */,
+				CB4F09AA1C5803D6003D3F74 /* ApperanceViewController.swift */,
 				CB67F3EB1CE6DCDB003D2B13 /* asPetsCell.swift */,
 				CB606C911CE66078009B4FA8 /* ApperanceTableViewCell.swift */,
 				CB4F09A81C580333003D3F74 /* EventsViewController.swift */,
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4F09AB1C5803D6003D3F74 /* ApperanceTableViewController.swift in Sources */,
+				CB4F09AB1C5803D6003D3F74 /* ApperanceViewController.swift in Sources */,
 				CB606C921CE66078009B4FA8 /* ApperanceTableViewCell.swift in Sources */,
 				CB4F09AF1C5803F9003D3F74 /* FavoriteLinksViewController.swift in Sources */,
 				CB4F09B11C58040D003D3F74 /* HealthViewController.swift in Sources */,
