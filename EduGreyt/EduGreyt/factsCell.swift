@@ -25,5 +25,14 @@ class factsCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    //Changing height constraiint to make sure that it collapses & has priority
+    var showDetails = false {
+        didSet {
+            secondHeightRestraint.priority = showDetails ? 250 : 999
+        }
+        
+    }
 
 }

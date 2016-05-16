@@ -26,6 +26,8 @@ class asPetsCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
+    //Changing height constraiint to make sure that it collapses & has priority
     var showDetails = false {
         didSet {
             secondHeightConstraint.priority = showDetails ? 250 : 999
