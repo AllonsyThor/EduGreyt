@@ -10,6 +10,14 @@ import UIKit
 
 class healthCell: UITableViewCell {
 
+    @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var firstViewLabel: UILabel!
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var secondViewLabel: UILabel!
+    @IBOutlet weak var secondHeightConstraint: NSLayoutConstraint!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

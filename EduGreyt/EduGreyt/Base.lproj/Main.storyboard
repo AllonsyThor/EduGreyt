@@ -191,6 +191,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="firstView" destination="qoa-V4-8Ka" id="ZlG-wZ-naB"/>
+                                            <outlet property="firstViewLabel" destination="YV4-pB-abo" id="BOg-sW-y8k"/>
+                                            <outlet property="secondHeightRestraint" destination="3V9-yT-LG7" id="5kI-Fd-49f"/>
+                                            <outlet property="secondView" destination="OA9-GS-UyL" id="Ibt-wU-yo3"/>
+                                            <outlet property="secondViewLabel" destination="VNL-IK-Rmr" id="sQc-Iq-Xdp"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -289,6 +296,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="firstView" destination="wXf-vR-foQ" id="qXW-RK-OBg"/>
+                                            <outlet property="firstViewLabel" destination="png-bI-P9H" id="Dkn-tP-phf"/>
+                                            <outlet property="secondHeightRestraint" destination="fDV-jY-1bT" id="1An-Hm-Oxw"/>
+                                            <outlet property="secondView" destination="9vy-Q3-rTf" id="UGc-qR-bZf"/>
+                                            <outlet property="secondViewLabel" destination="0uh-dz-CQC" id="T0d-hm-gra"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -387,6 +401,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="firstView" destination="32r-DN-UZz" id="Ddn-Uz-C4L"/>
+                                            <outlet property="firstViewLabel" destination="bRa-WZ-aP9" id="Y8Y-i8-UNV"/>
+                                            <outlet property="secondHeightRestraint" destination="pZm-Ef-8qD" id="9lb-rZ-Ayc"/>
+                                            <outlet property="secondView" destination="kVf-A0-e09" id="5vo-MK-fiW"/>
+                                            <outlet property="secondViewLabel" destination="pn8-8x-fj7" id="O1K-Ns-RLa"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -485,6 +506,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="firstView" destination="pDM-lQ-SFP" id="kFS-0y-xKP"/>
+                                            <outlet property="firstViewLabel" destination="iLW-MP-H3k" id="RLt-bl-nMl"/>
+                                            <outlet property="secondHeightConstraint" destination="van-vo-bLk" id="dr5-e4-L8K"/>
+                                            <outlet property="secondView" destination="JIJ-Oh-Tcf" id="Bhh-N3-cOb"/>
+                                            <outlet property="secondViewLabel" destination="rEo-UV-j2I" id="MKO-cJ-adZ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -638,6 +666,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <outlet property="firstView" destination="zmK-Wx-oqM" id="V32-PH-7y1"/>
+                                            <outlet property="firstViewLabel" destination="cKK-qM-QLT" id="azY-wj-iha"/>
+                                            <outlet property="secondHeightRestraint" destination="CMd-NB-xUa" id="oaQ-CJ-DGk"/>
+                                            <outlet property="secondView" destination="9bA-ca-THz" id="nMl-rN-RHz"/>
+                                            <outlet property="secondViewLabel" destination="Oky-sf-tp6" id="KDH-LP-c1U"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

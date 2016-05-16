@@ -9,6 +9,13 @@
 import UIKit
 
 class apperanceCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var firstView: UIView!
+    @IBOutlet weak var firstViewLabel: UILabel!
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var secondViewLabel: UILabel!
+    @IBOutlet weak var secondHeightRestraint: NSLayoutConstraint!
 
     override func awakeFromNib() {
         super.awakeFromNib()
