@@ -11,6 +11,7 @@ import UIKit
 
 class ApperanceViewController: UIViewController {
 
+    @IBOutlet weak var apperanceTableView: UITableView!
 
 
 

@@ -10,6 +10,9 @@ import UIKit
 
 class NotesViewController: UIViewController {
 
+    @IBOutlet weak var notesViewController: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

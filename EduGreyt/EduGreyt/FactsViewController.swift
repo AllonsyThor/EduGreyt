@@ -10,6 +10,9 @@ import UIKit
 
 class FactsViewController: UIViewController {
 
+    @IBOutlet weak var factsTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

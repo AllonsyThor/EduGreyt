@@ -119,7 +119,7 @@
         <!--Interesting Facts-->
         <scene sceneID="Aq9-Q5-agk">
             <objects>
-                <viewController title="Interesting Facts" id="YPQ-4m-bgp" sceneMemberID="viewController">
+                <viewController title="Interesting Facts" id="YPQ-4m-bgp" customClass="FactsViewController" customModule="EduGreyt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4QD-ia-Evu"/>
                         <viewControllerLayoutGuide type="bottom" id="R7b-kd-Iog"/>
@@ -216,6 +216,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="factsTableView" destination="4U8-WM-vZ5" id="67l-oi-2qK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgQ-8h-cP9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -224,7 +227,7 @@
         <!--Important Notes-->
         <scene sceneID="6gK-rI-ZWk">
             <objects>
-                <viewController title="Important Notes" id="Rrh-tX-jQN" sceneMemberID="viewController">
+                <viewController title="Important Notes" id="Rrh-tX-jQN" customClass="NotesViewController" customModule="EduGreyt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BxH-Wi-IQB"/>
                         <viewControllerLayoutGuide type="bottom" id="ELv-EB-qC1"/>
@@ -321,6 +324,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="notesViewController" destination="UZr-ox-1Ga" id="nCD-in-sKI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLC-pT-wll" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -329,7 +335,7 @@
         <!--Favorite Links-->
         <scene sceneID="a38-ka-Rct">
             <objects>
-                <viewController title="Favorite Links" id="GOk-T7-RoV" sceneMemberID="viewController">
+                <viewController title="Favorite Links" id="GOk-T7-RoV" customClass="FavoriteLinksViewController" customModule="EduGreyt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RxA-aE-VBp"/>
                         <viewControllerLayoutGuide type="bottom" id="8bF-Vw-41b"/>
@@ -426,6 +432,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="favoriteTableView" destination="WB8-gh-2pk" id="6rd-az-I7x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZG-2p-Yv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -434,7 +443,7 @@
         <!--Health -->
         <scene sceneID="8aK-qb-Mck">
             <objects>
-                <viewController title="Health " id="2va-aJ-al1" sceneMemberID="viewController">
+                <viewController title="Health " id="2va-aJ-al1" customClass="HealthViewController" customModule="EduGreyt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Al-ab-eiH"/>
                         <viewControllerLayoutGuide type="bottom" id="fo5-Np-xLk"/>
@@ -531,6 +540,9 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="healthTableView" destination="20F-l6-5VD" id="4Xr-yz-EAe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q0P-iN-NOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -690,6 +702,9 @@
                             <constraint firstAttribute="trailing" secondItem="jAa-AN-TSz" secondAttribute="trailing" id="nqU-Jx-6WG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="apperanceTableView" destination="jAa-AN-TSz" id="5n1-jK-0Fp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qvG-3F-zEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

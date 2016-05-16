@@ -10,6 +10,9 @@ import UIKit
 
 class HealthViewController: UIViewController {
 
+    @IBOutlet weak var healthTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
