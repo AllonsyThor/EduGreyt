@@ -161,7 +161,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OA9-GS-UyL" userLabel="secondView">
-                                                    <rect key="frame" x="0.0" y="40" width="375" height="60"/>
+                                                    <rect key="frame" x="0.0" y="40" width="375" height="0.0"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNL-IK-Rmr">
                                                             <rect key="frame" x="166.5" y="20" width="42" height="20.5"/>
@@ -174,9 +174,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="60" id="3V9-yT-LG7"/>
-                                                        <constraint firstItem="VNL-IK-Rmr" firstAttribute="centerX" secondItem="OA9-GS-UyL" secondAttribute="centerX" id="Cbb-6o-6fE"/>
-                                                        <constraint firstItem="VNL-IK-Rmr" firstAttribute="top" secondItem="OA9-GS-UyL" secondAttribute="top" constant="20" id="Hml-XV-K2J"/>
+                                                        <constraint firstAttribute="height" priority="999" id="3V9-yT-LG7"/>
+                                                        <constraint firstItem="VNL-IK-Rmr" firstAttribute="centerX" secondItem="OA9-GS-UyL" secondAttribute="centerX" priority="998" id="Cbb-6o-6fE"/>
+                                                        <constraint firstItem="VNL-IK-Rmr" firstAttribute="top" secondItem="OA9-GS-UyL" secondAttribute="top" priority="998" constant="20" id="Hml-XV-K2J"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -269,7 +269,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9vy-Q3-rTf" userLabel="secondView">
-                                                    <rect key="frame" x="0.0" y="40" width="375" height="60"/>
+                                                    <rect key="frame" x="0.0" y="40" width="375" height="0.0"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uh-dz-CQC">
                                                             <rect key="frame" x="166" y="20" width="42" height="20.5"/>
@@ -282,9 +282,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="0uh-dz-CQC" firstAttribute="centerX" secondItem="9vy-Q3-rTf" secondAttribute="centerX" id="Gay-LQ-UCn"/>
-                                                        <constraint firstAttribute="height" constant="60" id="fDV-jY-1bT"/>
-                                                        <constraint firstItem="0uh-dz-CQC" firstAttribute="top" secondItem="9vy-Q3-rTf" secondAttribute="top" constant="20" id="wJs-Bn-e4K"/>
+                                                        <constraint firstItem="0uh-dz-CQC" firstAttribute="centerX" secondItem="9vy-Q3-rTf" secondAttribute="centerX" priority="998" id="Gay-LQ-UCn"/>
+                                                        <constraint firstAttribute="height" priority="999" id="fDV-jY-1bT"/>
+                                                        <constraint firstItem="0uh-dz-CQC" firstAttribute="top" secondItem="9vy-Q3-rTf" secondAttribute="top" priority="998" constant="20" id="wJs-Bn-e4K"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -390,9 +390,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="pn8-8x-fj7" firstAttribute="centerX" secondItem="kVf-A0-e09" secondAttribute="centerX" id="604-Gg-4z0"/>
-                                                        <constraint firstItem="pn8-8x-fj7" firstAttribute="top" secondItem="kVf-A0-e09" secondAttribute="top" constant="20" id="GwY-E9-qcl"/>
-                                                        <constraint firstAttribute="height" constant="60" id="pZm-Ef-8qD"/>
+                                                        <constraint firstItem="pn8-8x-fj7" firstAttribute="centerX" secondItem="kVf-A0-e09" secondAttribute="centerX" priority="998" id="604-Gg-4z0"/>
+                                                        <constraint firstItem="pn8-8x-fj7" firstAttribute="top" secondItem="kVf-A0-e09" secondAttribute="top" priority="998" constant="20" id="GwY-E9-qcl"/>
+                                                        <constraint firstAttribute="height" priority="999" id="pZm-Ef-8qD"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -485,7 +485,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIJ-Oh-Tcf" userLabel="secondView">
-                                                    <rect key="frame" x="0.0" y="39" width="375" height="60"/>
+                                                    <rect key="frame" x="0.0" y="39" width="375" height="0.0"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEo-UV-j2I">
                                                             <rect key="frame" x="166" y="20" width="42" height="20.5"/>
@@ -498,9 +498,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="rEo-UV-j2I" firstAttribute="centerX" secondItem="JIJ-Oh-Tcf" secondAttribute="centerX" id="8Sn-s8-eCs"/>
-                                                        <constraint firstItem="rEo-UV-j2I" firstAttribute="top" secondItem="JIJ-Oh-Tcf" secondAttribute="top" constant="20" id="uWz-CE-lju"/>
-                                                        <constraint firstAttribute="height" constant="60" id="van-vo-bLk"/>
+                                                        <constraint firstItem="rEo-UV-j2I" firstAttribute="centerX" secondItem="JIJ-Oh-Tcf" secondAttribute="centerX" priority="998" id="8Sn-s8-eCs"/>
+                                                        <constraint firstItem="rEo-UV-j2I" firstAttribute="top" secondItem="JIJ-Oh-Tcf" secondAttribute="top" priority="998" constant="20" id="uWz-CE-lju"/>
+                                                        <constraint firstAttribute="height" priority="999" id="van-vo-bLk"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -647,7 +647,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bA-ca-THz" userLabel="secondView">
-                                                    <rect key="frame" x="0.0" y="40" width="414" height="60"/>
+                                                    <rect key="frame" x="0.0" y="40" width="414" height="0.0"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oky-sf-tp6">
                                                             <rect key="frame" x="186" y="20" width="42" height="20.5"/>
@@ -660,9 +660,9 @@
                                                     <animations/>
                                                     <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
-                                                        <constraint firstItem="Oky-sf-tp6" firstAttribute="top" secondItem="9bA-ca-THz" secondAttribute="top" constant="20" id="7PB-Cd-bLI"/>
-                                                        <constraint firstAttribute="height" constant="60" id="CMd-NB-xUa"/>
-                                                        <constraint firstItem="Oky-sf-tp6" firstAttribute="centerX" secondItem="9bA-ca-THz" secondAttribute="centerX" id="mCf-lA-vVG"/>
+                                                        <constraint firstItem="Oky-sf-tp6" firstAttribute="top" secondItem="9bA-ca-THz" secondAttribute="top" priority="998" constant="20" id="7PB-Cd-bLI"/>
+                                                        <constraint firstAttribute="height" priority="999" id="CMd-NB-xUa"/>
+                                                        <constraint firstItem="Oky-sf-tp6" firstAttribute="centerX" secondItem="9bA-ca-THz" secondAttribute="centerX" priority="998" id="mCf-lA-vVG"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
